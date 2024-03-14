@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+    vertical-align: middle;
+    }
+
+section {
+        background-color: #fff;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 0.5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border-radius: 8px;
+}
+
+h1, h3 {
+    color: #333;
+    text-align: center;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}

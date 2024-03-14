@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleep and Mental Health</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="scrollbar.css" />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html" class="logo"><i class="fa fa-home"></i></a>
+        <div class="menu">
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">SLEEP</a></li>
+              <li><a href="../mental/index.html">MENTAL HEALTH</a></li>
+              <li><a href="../lifestyle/index.html">LIFESTYLE DATA</a></li>
+              <li><a href="../conclusion/index.html">CONCLUSION</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+      </nav>
+      <div class="text-box">
+        <h1>Mental Health</h1>
+        <p>
+          Information on sleep and its effects are now more accessable to
+          student than its ever been!
+        </p>
+        <a href="#scroll" class="hero-btn">Learn More</a>
+      </div>
+    </section>
+    <div id="scroll">
+      <section class="sleep">
+        <h1>Academic Peformance</h1>
+        <p>
+          What are some factors that affects a students academic peformance?
+        </p>
+        <div class="row">
+          <div class="course-col">
+            <h3>Sleep</h3>
+            <p>
+              Sleep is shown to have a significant effect on both a student's
+              ability to learn content and also affects a students ability to
+              recall information during test conditions.
+              <br />-Sometimes its better sleep than study!-
+            </p>
+          </div>
+
+          <div class="course-col">
+            <h3>Mental Health</h3>
+            <p>
+              A student's mental state is also a key factor in their ability to
+              perform during exams. It is good to enter test with a clear mind
+              and no uneccasary distractions as this might hinder the students
+              ability to perform.
+              <br />-Calming down can be the preparation your missing!-
+            </p>
+          </div>
+          <div class="course-col">
+            <h3>Lifestyle</h3>
+            <p>
+              A students lifestyle choices can also effect their ability to
+              perform on assessments. Things like physical wellbeing and health
+              can hinder a students ability to sit and perform over longer
+              intervals of time.
+              <br />-Take care of your body too!-
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="goals">
+      <h1>Our Goals</h1>
+      <p>
+        Our goal is to inform students about the affects that sleep and personal
+        wellbeing has on their performance in studies. We hope the information
+        we present will motivate students to pick up healthy practises.
+      </p>
+
+      <div class="row">
+        <div class="campus-col">
+          <img src="/assets/sleep.jpg" />
+          <div class="layer">
+            <h3>SLEEP</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="/assets/mental.jpg" />
+          <div class="layer">
+            <h3>MENTAL HEALTH</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="/assets/lifestyle.jpg" />
+          <div class="layer">
+            <h3>LIFESTYLE</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <h4>Support</h4>
+      <p>
+        We have linked some social media pages below for anyone interested in
+        gathering a greater understanding in ways to improve there mental health
+        and sleep.
+      </p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Group 7</p>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
