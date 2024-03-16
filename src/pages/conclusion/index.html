@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sleep and Mental Health</title>
-    <link rel="stylesheet" href="conclusion.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
@@ -12,9 +12,10 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
     <link rel="stylesheet" href="scrollbar.css" />
+    <link rel="icon" href="/src/assets/icon.png" />
   </head>
 
   <body>
@@ -25,10 +26,12 @@
           <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-              <li><a href="index.html">SLEEP</a></li>
-              <li><a href="../mental/index.html">MENTAL HEALTH</a></li>
-              <li><a href="../lifestyle/index.html">LIFESTYLE DATA</a></li>
-              <li><a href="../conclusion/index.html">CONCLUSION</a></li>
+              <li><a href="/src/pages/sleep/index.html">SLEEP</a></li>
+              <li><a href="/src/pages/mental/index.html">MENTAL HEALTH</a></li>
+              <li>
+                <a href="/src/pages/lifestyle/index.html">LIFESTYLE DATA</a>
+              </li>
+              <li><a href="index.html">CONCLUSION</a></li>
             </ul>
           </div>
           <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -37,53 +40,81 @@
       <div class="text-box">
         <h1>Conclusion</h1>
         <p>Summary of our findings</p>
-        <a href="" class="hero-btn">Learn More</a>
+        <a href="#scroll" class="hero-btn">Learn More</a>
       </div>
     </section>
 
-    <div>
-      <p>
-        A majority of respondents reported sleeping between 7 and 9 hours every
-        night. However, many students reported inconsistent sleep schedules
-        (i.e. not sleeping at the same time every night.).#
-        <br />
-        Restorative sleep requires consistent schedules and early sleep times.
-        Increased sleep quality is directly linked with improved emotional
-        regulation and more performant cognition. Some respondents indicated
-        they were sometimes not focused or tired in class, probably related to
-        poor sleep habits.
-      </p>
+    <div id="scroll">
+      <section class="body">
+        <h1>What we found</h1>
+        <p>
+          A majority of respondents reported sleeping between 7 and 9 hours
+          every night. However, many students reported inconsistent sleep
+          schedules (i.e. not sleeping at the same time every night.).#
+          <br />
+          Restorative sleep requires consistent schedules and early sleep times.
+          Increased sleep quality is directly linked with improved emotional
+          regulation and more performant cognition. Some respondents indicated
+          they were sometimes not focused or tired in class, probably related to
+          poor sleep habits.
+        </p>
 
-      <p>
-        Daily routines, including screen time before bed, physical activity, and
-        consumption of energy drinks, show a correlation with sleep patterns.
-        Students engaging in regular physical activity and limiting screen time
-        before bed reported better sleep quality and alertness.
-      </p>
+        <p>
+          Daily routines, including screen time before bed, physical activity,
+          and consumption of energy drinks, show a correlation with sleep
+          patterns. Students engaging in regular physical activity and limiting
+          screen time before bed reported better sleep quality and alertness.
+        </p>
 
-      <p>
-        Students with consistent sleep schedules and higher sleep quality more
-        often report higher average grades. This suggests that good sleep
-        management is a major factor in academic success.
-      </p>
+        <p>
+          Students with consistent sleep schedules and higher sleep quality more
+          often report higher average grades. This suggests that good sleep
+          management is a major factor in academic success.
+        </p>
 
-      <p>
-        Students who reported feeling tired in class or having difficulty
-        focusing also often reported inconsistent or insufficient sleep. Mood
-        ratings correlate with sleep quality, indicating that better sleep is
-        associated with a more positive mood on average.
-      </p>
+        <p>
+          Students who reported feeling tired in class or having difficulty
+          focusing also often reported inconsistent or insufficient sleep. Mood
+          ratings correlate with sleep quality, indicating that better sleep is
+          associated with a more positive mood on average.
+        </p>
 
-      <p>
-        In conclusion, the survey data highlights the importance of consistent
-        sleep for maintaining mental health and achieving academic success. It
-        suggests that interventions aimed at improving sleep, such as
-        establishing consistent sleep schedules, reducing screen time before
-        bed, engaging in regular physical activity, and limiting the intake of
-        energy drinks and caffiene, have benefits for student wellbeing and
-        performance. Educators should consider these findings when designing
-        policies to support student health and learning outcomes.
-      </p>
+        <p>
+          In conclusion, the survey data highlights the importance of consistent
+          sleep for maintaining mental health and achieving academic success. It
+          suggests that interventions aimed at improving sleep, such as
+          establishing consistent sleep schedules, reducing screen time before
+          bed, engaging in regular physical activity, and limiting the intake of
+          energy drinks and caffiene, have benefits for student wellbeing and
+          performance. Educators should consider these findings when designing
+          policies to support student health and learning outcomes.
+        </p>
+      </section>
     </div>
+    <section class="footer">
+      <h4>Support</h4>
+      <p>
+        We have linked some social media pages below for anyone interested in
+        gathering a greater understanding in ways to improve there mental health
+        and sleep.
+      </p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Group 7</p>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>

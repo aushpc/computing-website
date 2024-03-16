@@ -1,335 +1,358 @@
-<head>
-  <link rel="stylesheet" href="lifestyle.css" />
-</head>
-<body>
-  <section class="header">
-    <nav>
-      <a href="/src/index.html" class="logo"><i class="fa fa-home"></i></a>
-      <div class="menu">
-        <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="index.html">SLEEP</a></li>
-            <li><a href="../mental/index.html">MENTAL HEALTH</a></li>
-            <li><a href="../lifestyle/index.html">LIFESTYLE DATA</a></li>
-            <li><a href="../conclusion/index.html">CONCLUSION</a></li>
-          </ul>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lifestyle</title>
+    <link rel="stylesheet" href="lifestyle.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="scrollbar.css" />
+    <link rel="icon" href="/src/assets/icon.png" />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="/src/index.html" class="logo"><i class="fa fa-home"></i></a>
+        <div class="menu">
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="/src/pages/sleep/index.html">SLEEP</a></li>
+              <li><a href="/src/pages/mental/index.html">MENTAL HEALTH</a></li>
+              <li><a href="index.html">LIFESTYLE DATA</a></li>
+              <li><a href="/src/pages/conclusion/index.html">CONCLUSION</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
         </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Lifestyle</h1>
+        <p>
+          Lifestyle choices affect the ability for students to learn and engage
+          in classwork inside and outside of school.
+        </p>
+        <a href="#scroll" class="hero-btn">Learn More</a>
       </div>
-    </nav>
-    <div class="text-box">
-      <h1>Lifestyle</h1>
-      <p>
-        Lifestyle choices affect the ability for students to learn and engage in
-        classwork inside and outside of school.
-      </p>
-      <a href="" class="hero-btn">Learn More</a>
-    </div>
-  </section>
+    </section>
+    <section class="body">
+      <section id="scroll">
+        <section class="b">
+          <h1>Extracurricular activities</h1>
+          <p>
+            We surveyed respondents with
+            <b>"Do you engage in any extracurricular activities?</b> The purpose
+            was to gauge the effect of non-school activities on mental wellbeing
+            and time management.
+          </p>
+          <canvas id="activitiesChart"></canvas>
+          <p>
+            Half of participants do not meet the recommended amount of exercise
+            per day
+            <a
+              href="https://www.cdc.gov/healthyschools/physicalactivity/guidelines.htm#:~:text=Children%20and%20adolescents%20ages%206%20through%2017%20years%20should%20do,to%2Dvigorous%20physical%20activity%20daily."
+              >(60 minutes)</a
+            >
+          </p>
+        </section>
+      </section>
+      <section class="b">
+        <h1>Energy drinks</h1>
+        <p>
+          We surveyed respondents with <b>"Do you drink energy drinks?</b> The
+          purpose was to gauge the effect of energy drinks on performance and
+          sleep.
+        </p>
 
-  <style>
-    @keyframes reveal {
-      from {
-        background-position-x: 200%;
-      }
-      to {
-        background-position-x: 0%;
-      }
+        <canvas id="energyDrinkChart"></canvas>
+      </section>
+
+      <section class="b">
+        <h1>What do you do before bed to help you sleep?</h1>
+        <p><b>Some things...</b></p>
+
+        <li>Don't use a phone.</li>
+        <li>Stick to a schedule.</li>
+        <li>Nothing.</li>
+        <li>Finish homework as early as possible.</li>
+        <li>Drink tea.</li>
+        <li>Drink milk.</li>
+        <li>Read a book.</li>
+      </section>
+
+      <section class="b">
+        <h1>Sport and academic performance</h1>
+        <p>
+          We compared extracurricular activites to academic grade performance
+          average of participants in that activity
+        </p>
+        <canvas id="extraGradeChart"></canvas>
+        <p>
+          Overall, people who engaged in performing arts, non-ball sports, and
+          no hobbies had the highest grade averages respectively (excluding
+          non-miscellaneous hobbies), with the average grade ranges from 81.67%,
+          81.67%, and then 77.5%. Although the difference can be neglible and
+          minor especially with a smaller sample size, there is still some
+          evidence that extracurricular activities can boost academic
+          performance.
+        </p>
+        <p>
+          According to the United States Department of Education,
+          <a
+            href="https://files.eric.ed.gov/fulltext/EJ1208711.pdf"
+            target="_blank"
+            >students engaging in extracurricular activities had higher test
+            scores compared to their peers. </a
+          >It is important to note that there was neglible grade difference
+          between those who engaged in zero, and only one extracurricular
+          activity, which might have been demonstrated by our survey. For males,
+          athletic participation was associated with a higher grade point
+          average; and sport team participation was associated with a higher
+          grade point average for females.
+        </p>
+        <p>
+          The study also associated extracurricular activities with a more
+          positive mood and attraction to school than non-participants, which
+          was somewhat supported by our survey results.
+        </p>
+        <p>
+          The grade field worked in ranges and therefore does not produce any
+          more of a precise answer, furthermore we did not survey study habits.
+        </p>
+      </section>
+
+      <section class="b">
+        <h1>Does a good lifestyle actually help?</h1>
+        <p>We drew connections between sleep and mental health..</p>
+        <p>
+          The Australian Institute of Family Studies recommends
+          <a
+            href="https://aifs.gov.au/media/australian-teens-not-getting-enough-sleep#:~:text=Institute%20Research%20Fellow%2C%20Dr%20Tracy,and%2010%20hours%20of%20sleep."
+            target="_blank"
+            >8-10 hours of sleep</a
+          >
+          for teenagers every night. Most respondents do not get enough sleep,
+          on an average of
+          <b>6.87 hours</b> and past 10pm about <b>5</b> times per week, which
+          is well below the healthy amount of sleep of <b>8-10 hours</b>.
+          Furthermore, the average mood reported was <b>6.6</b> on the 1-10
+          scale. While not extremely low, it indicates room for improvement in
+          the surveyed population and a possible correlation between sleep and
+          mood. The majority of respondents <b>(51.28%)</b> indicated their
+          grades in the 71%-80% range, and <b>30.77%</b> in the 80-90% range.
+          The distribution shows high academic performance, however may be
+          skewed as respondents attend a selective school, and were
+          traditionally high performing students. For those who met the 8 hour
+          minimum recommendation, the grade average was <b>86%</b>. The average
+          for those who did not meet the recommendation (29 respondents) had an
+          average grade of <b>82%</b>.
+        </p>
+      </section>
+      <section class="footer">
+        <h4>Support</h4>
+        <p>
+          We have linked some social media pages below for anyone interested in
+          gathering a greater understanding in ways to improve there mental
+          health and sleep.
+        </p>
+
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Group 7</p>
+      </section>
+    </section>
+  </body>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
     }
-  </style>
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-  <section>
-    <h3>Extracurricular activities</h3>
-    <p>
-      We surveyed respondents with
-      <b>"Do you engage in any extracurricular activities?</b> The purpose was
-      to gauge the effect of non-school activities on mental wellbeing and time
-      management.
-    </p>
-    <canvas id="activitiesChart"></canvas>
-    <p>
-      Half of participants do not meet the recommended amount of exercise per
-      day
-      <a
-        href="https://www.cdc.gov/healthyschools/physicalactivity/guidelines.htm#:~:text=Children%20and%20adolescents%20ages%206%20through%2017%20years%20should%20do,to%2Dvigorous%20physical%20activity%20daily."
-        >(60 minutes)</a
-      >
-    </p>
-  </section>
+  <script>
+    const ctx = document.getElementById("activitiesChart");
 
-  <section>
-    <h3>Energy drinks</h3>
-    <p>
-      We surveyed respondents with <b>"Do you drink energy drinks?</b> The
-      purpose was to gauge the effect of energy drinks on performance and sleep.
-    </p>
-    <div style="width: 40%">
-      <canvas id="energyDrinkChart"></canvas>
-    </div>
-  </section>
-
-  <section>
-    <h3>What do you do before bed to help you sleep?</h3>
-    <p><b>Some things...</b></p>
-    <ul>
-      <li>Nothing.</li>
-      <li>Don't use a phone.</li>
-      <li>Stick to a schedule.</li>
-      <li>Nothing.</li>
-      <li>Finish homework as early as possible.</li>
-      <li>Drink tea.</li>
-      <li>Drink milk.</li>
-      <li>Read a book.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h3>Sport and academic performance</h3>
-    <p>
-      We compared extracurricular activites to academic grade performance
-      average of participants in that activity
-    </p>
-    <div style="width: 80%">
-      <canvas id="extraGradeChart"></canvas>
-    </div>
-    <p>
-      Overall, people who engaged in performing arts, non-ball sports, and no
-      hobbies had the highest grade averages respectively (excluding
-      non-miscellaneous hobbies), with the average grade ranges from 81.67%,
-      81.67%, and then 77.5%. Although the difference can be neglible and minor
-      especially with a smaller sample size, there is still some evidence that
-      extracurricular activities can boost academic performance.
-    </p>
-    <p>
-      According to the United States Department of Education,
-      <a href="https://files.eric.ed.gov/fulltext/EJ1208711.pdf" target="_blank"
-        >students engaging in extracurricular activities had higher test scores
-        compared to their peers. </a
-      >It is important to note that there was neglible grade difference between
-      those who engaged in zero, and only one extracurricular activity, which
-      might have been demonstrated by our survey. For males, athletic
-      participation was associated with a higher grade point average; and sport
-      team participation was associated with a higher grade point average for
-      females.
-    </p>
-    <p>
-      The study also associated extracurricular activities with a more positive
-      mood and attraction to school than non-participants, which was somewhat
-      supported by our survey results.
-    </p>
-    <p>
-      The grade field worked in ranges and therefore does not produce any more
-      of a precise answer, furthermore we did not survey study habits.
-    </p>
-  </section>
-
-  <section>
-    <h3>Does a good lifestyle actually help?</h3>
-    <p>We drew connections between sleep and mental health..</p>
-    <p>
-      The Australian Institute of Family Studies recommends
-      <a
-        href="https://aifs.gov.au/media/australian-teens-not-getting-enough-sleep#:~:text=Institute%20Research%20Fellow%2C%20Dr%20Tracy,and%2010%20hours%20of%20sleep."
-        target="_blank"
-        >8-10 hours of sleep</a
-      >
-      for teenagers every night.
-    </p>
-    <p>
-      Most respondents do not get enough sleep, on an average of
-      <b>6.87 hours</b> and past 10pm about <b>5</b> times per week, which is
-      well below the healthy amount of sleep of <b>8-10 hours</b>. Furthermore,
-      the average mood reported was <b>6.6</b> on the 1-10 scale. While not
-      extremely low, it indicates room for improvement in the surveyed
-      population and a possible correlation between sleep and mood.
-    </p>
-    <p>
-      The majority of respondents <b>(51.28%)</b> indicated their grades in the
-      71%-80% range, and <b>30.77%</b> in the 80-90% range.
-      <br />
-      The distribution shows high academic performance, however may be skewed as
-      respondents attend a selective school, and were traditionally high
-      performing students.
-    </p>
-    <p>
-      For those who met the 8 hour minimum recommendation, the grade average was
-      <b>86%</b>. The average for those who did not meet the recommendation (29
-      respondents) had an average grade of <b>82%</b>.
-    </p>
-  </section>
-</body>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-  const ctx = document.getElementById("activitiesChart");
-
-  new Chart(ctx, {
-    type: "bar",
-    data: {
-      labels: [
-        "Strength Training",
-        "Running Sports",
-        "Ball Sports",
-        "Other Sports",
-        "Reading",
-        "Performing Arts",
-        "Spiritual/Religious",
-        "Other Hobbies",
-      ],
-      datasets: [
-        {
-          label: "# Of Participants",
-          data: [10, 8, 11, 9, 15, 3, 3, 12],
-          borderWidth: 1,
-        },
-      ],
-    },
-    options: {
-      scales: {
-        y: {
-          beginAtZero: true,
-        },
+    new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: [
+          "Strength Training",
+          "Running Sports",
+          "Ball Sports",
+          "Other Sports",
+          "Reading",
+          "Performing Arts",
+          "Spiritual/Religious",
+          "Other Hobbies",
+        ],
+        datasets: [
+          {
+            label: "# Of Participants",
+            data: [10, 8, 11, 9, 15, 3, 3, 12],
+            borderWidth: 1,
+          },
+        ],
       },
-      transitions: {
-        show: {
-          animations: {
-            x: {
-              from: 0,
-            },
-            y: {
-              from: 0,
-            },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
           },
         },
-        hide: {
-          animations: {
-            x: {
-              to: 0,
+        transitions: {
+          show: {
+            animations: {
+              x: {
+                from: 0,
+              },
+              y: {
+                from: 0,
+              },
             },
-            y: {
-              to: 0,
+          },
+          hide: {
+            animations: {
+              x: {
+                to: 0,
+              },
+              y: {
+                to: 0,
+              },
             },
           },
         },
       },
-    },
-  });
+    });
 
-  const extraGradeChart = document.getElementById("extraGradeChart");
+    const extraGradeChart = document.getElementById("extraGradeChart");
 
-  new Chart(extraGradeChart, {
-    type: "radar",
-    data: {
-      labels: [
-        "Spiritual/Religious",
-        "Ball Sports",
-        "Running Sports",
-        "Strength Training",
-        "Reading",
-        "None",
-        "Other Sports",
-        "Performing Arts",
-        "Other Hobbies",
-      ],
-      datasets: [
-        {
-          label: "All Students",
-          data: [75.0, 76.33, 77.0, 77.0, 77.14, 77.5, 81.67, 81.67, 85.0],
-        },
-        {
-          label: "Males",
-          data: [75.0, 65.0, 75.0, 76.8, 75.0, 0, 80.0, 0, 85.0],
-          hidden: true,
-        },
-        {
-          label: "Females",
-          data: [0, 75.0, 75.0, 77.5, 80.0, 0, 85.0, 80.0, 77.5],
-          hidden: true,
-        },
-        {
-          label: "Other",
-          data: [85.0, 85.0, 85.0, 0, 0, 0, 0, 85.0, 0],
-          hidden: true,
-        },
-      ],
-    },
-    options: {
-      scales: {
-        y: {
-          beginAtZero: true,
-        },
+    new Chart(extraGradeChart, {
+      type: "radar",
+      data: {
+        labels: [
+          "Spiritual/Religious",
+          "Ball Sports",
+          "Running Sports",
+          "Strength Training",
+          "Reading",
+          "None",
+          "Other Sports",
+          "Performing Arts",
+          "Other Hobbies",
+        ],
+        datasets: [
+          {
+            label: "All Students",
+            data: [75.0, 76.33, 77.0, 77.0, 77.14, 77.5, 81.67, 81.67, 85.0],
+          },
+          {
+            label: "Males",
+            data: [75.0, 65.0, 75.0, 76.8, 75.0, 0, 80.0, 0, 85.0],
+            hidden: true,
+          },
+          {
+            label: "Females",
+            data: [0, 75.0, 75.0, 77.5, 80.0, 0, 85.0, 80.0, 77.5],
+            hidden: true,
+          },
+          {
+            label: "Other",
+            data: [85.0, 85.0, 85.0, 0, 0, 0, 0, 85.0, 0],
+            hidden: true,
+          },
+        ],
       },
-      transitions: {
-        show: {
-          animations: {
-            x: {
-              from: 0,
-            },
-            y: {
-              from: 0,
-            },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
           },
         },
-        hide: {
-          animations: {
-            x: {
-              to: 0,
-            },
-            y: {
-              to: 0,
-            },
-          },
-        },
-      },
-    },
-  });
-
-  const energyChart = document.getElementById("energyDrinkChart");
-
-  new Chart(energyChart, {
-    type: "pie",
-    data: {
-      labels: ["Always", "Sometimes", "Never"],
-      datasets: [
-        {
-          label: "# Of Participants",
-          data: [0, 16, 23],
-          borderWidth: 1,
-        },
-      ],
-    },
-    options: {
-      scales: {
-        y: {
-          beginAtZero: true,
-        },
-      },
-      transitions: {
-        show: {
-          animations: {
-            x: {
-              from: 0,
-            },
-            y: {
-              from: 0,
+        transitions: {
+          show: {
+            animations: {
+              x: {
+                from: 0,
+              },
+              y: {
+                from: 0,
+              },
             },
           },
-        },
-        hide: {
-          animations: {
-            x: {
-              to: 0,
-            },
-            y: {
-              to: 0,
+          hide: {
+            animations: {
+              x: {
+                to: 0,
+              },
+              y: {
+                to: 0,
+              },
             },
           },
         },
       },
-    },
-  });
+    });
 
-  Chart.defaults.color = "#967bb6";
-</script>
+    const energyChart = document.getElementById("energyDrinkChart");
+
+    new Chart(energyChart, {
+      type: "pie",
+      data: {
+        labels: ["Always", "Sometimes", "Never"],
+        datasets: [
+          {
+            label: "# Of Participants",
+            data: [0, 16, 23],
+            borderWidth: 1,
+          },
+        ],
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
+          },
+        },
+        transitions: {
+          show: {
+            animations: {
+              x: {
+                from: 0,
+              },
+              y: {
+                from: 0,
+              },
+            },
+          },
+          hide: {
+            animations: {
+              x: {
+                to: 0,
+              },
+              y: {
+                to: 0,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    Chart.defaults.color = "#967bb6";
+  </script>
+</html>

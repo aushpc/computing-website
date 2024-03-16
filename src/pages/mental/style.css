@@ -16,7 +16,7 @@ body {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(../../assets/bg.jpg);
+    url(/src/assets/mental_bg.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -55,7 +55,7 @@ nav img {
   content: "";
   width: 0%;
   height: 2px;
-  background: #830086;
+  background: rgb(127, 194, 194);
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -98,8 +98,8 @@ nav img {
 }
 
 .hero-btn:hover {
-  border: 1px solid #830086;
-  background: #830086;
+  border: 1px solid rgb(127, 194, 194);
+  background: rgb(127, 194, 194);
   transition: 1s;
 }
 
@@ -115,7 +115,7 @@ nav img {
 }
 
 .logo:hover{
-  color: #830086
+  color: rgb(127, 194, 194);
 }
 
 .menu .fa {
@@ -133,7 +133,7 @@ nav img {
 
   .nav-links {
     position: absolute;
-    background: #830086;
+    background: rgb(127, 194, 194);
     height: 100vh;
     width: 200px;
     top: 0;
@@ -237,7 +237,7 @@ h3{
     cursor: pointer;
 }
 .layer:hover{
-    background: #830086;
+    background: rgb(127, 194, 194);
 }
 .layer h3{
     width: 100%;

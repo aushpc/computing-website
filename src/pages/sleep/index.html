@@ -15,6 +15,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
     <link rel="stylesheet" href="scrollbar.css" />
+    <link rel="icon" href="/src/assets/icon.png" />
   </head>
   <body>
     <section class="header">
@@ -25,9 +26,11 @@
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
               <li><a href="index.html">SLEEP</a></li>
-              <li><a href="../mental/index.html">MENTAL HEALTH</a></li>
-              <li><a href="../lifestyle/index.html">LIFESTYLE DATA</a></li>
-              <li><a href="../conclusion/index.html">CONCLUSION</a></li>
+              <li><a href="/src/pages/mental/index.html">MENTAL HEALTH</a></li>
+              <li>
+                <a href="/src/pages/lifestyle/index.html">LIFESTYLE DATA</a>
+              </li>
+              <li><a href="/src/pages/conclusion/index.html">CONCLUSION</a></li>
             </ul>
           </div>
           <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -39,83 +42,99 @@
           Information on sleep and its effects are now more accessable to
           student than its ever been!
         </p>
-        <a href="" class="hero-btn">Learn More</a>
+        <a href="#scroll" class="hero-btn">Learn More</a>
       </div>
     </section>
-
-    <section class="sleep">
-      <h1>Why is sleep important?</h1>
-      <p>Lack of sleep can affect teen in mamny different ways including:</p>
-      <div class="row">
-        <div class="course-col">
-          <h3>Accademically</h3>
-          <p>
-            Sleep deprivation can also impact your cognitive thinking. During
-            sleep, your brain cycles through 3 stages of sleep, where chemicals
-            and hormones are released which help the body and neurons within the
-            brain recover. Sleep deprivation interrupts this process, and the
-            brain’s neurons will end up overworking and are less capable of
-            optimal performance. As a result, you might be excessively sleepy
-            during the day, have a poor attention span, and thus a diminished
-            ability to learn and perform in school.
-          </p>
+    <div id="scroll">
+      <section class="sleep">
+        <h1>Affects of sleep?</h1>
+        <p>Lack of sleep can affect teen in mamny different ways including:</p>
+        <div class="row">
+          <div class="course-col">
+            <h3>Accademically</h3>
+            <p>
+              Sleep deprivation can impact your cognitive thinking. During
+              sleep, your brain cycles through 3 stages of sleep, where
+              chemicals and hormones are released which help the body and
+              neurons within the brain recover. Sleep deprivation interrupts
+              this process, and the brain’s neurons will end up overworking and
+              are less capable of optimal performance. As a result, you might be
+              excessively sleepy during the day, have a poor attention span, and
+              thus a diminished ability to learn and perform in school.
+            </p>
+          </div>
+          <div class="course-col">
+            <h3>Physically</h3>
+            <p>
+              Negative impacts of sleep deprivation on the body include damages
+              to brain development, metabolism and immune system.Lack of sleep
+              in your developing years can hinder your brain growth and can
+              plant the seed for further neurological disorders. Sleep
+              deprivation can also double your risk of developing dementia. Many
+              large epidemiological studies have suggested that partial sleep
+              deprivation is associated with an increased risk of obesity and
+              diabete. This is a major concern as sleep deprivation also weakens
+              the immune system meaning a sleep deprived population would lead
+              to an unhealthy and disease prone society in the future.
+            </p>
+          </div>
+          <div class="course-col">
+            <h3>Emotionally</h3>
+            <p>
+              Your mood can also be affected by a lack of sleep.. Studies have
+              shown that adults, teenagers, and children alike show similar
+              impacts on their mental health and emotions when they are
+              sleep-deprived. Exaggerated anger, depression, and anxiety have
+              been seen in those who are sleep-deprived and these emotions can
+              lead to confusion, fatigue, and even weakness. Not getting enough
+              sleep can hinder our ability to think clearly and often when
+              stressful situations arise we are led to panic.
+            </p>
+          </div>
         </div>
-        <div class="course-col">
-          <h3>Physically</h3>
-          <p>
-            Negative impacts of sleep deprivation on the body include damages to
-            brain development, metabolism and immune system.Lack of sleep in
-            your developing years can hinder your brain growth and can plant the
-            seed for further neurological disorders. Sleep deprivation can also
-            double your risk of developing dementia. Many large epidemiological
-            studies have suggested that partial sleep deprivation is associated
-            with an increased risk of obesity and diabete. This is a major
-            concern as sleep deprivation also weakens the immune system meaning
-            a sleep deprived population would lead to an unhealthy and disease
-            prone society in the future.
-          </p>
-        </div>
-        <div class="course-col">
-          <h3>Emotionally</h3>
-          <p>
-            Sleep deprivation can also affect your mood. Studies have shown that
-            adults, teenagers, and children alike show similar impacts on their
-            mental health and emotions when they are sleep-deprived. Exaggerated
-            anger, depression, and anxiety have been seen in those who are
-            sleep-deprived and these emotions can lead to confusion, fatigue,
-            and even weak. Sleep disorders like insomnia are more likely to lead
-            to mental health and mood disorders
-          </p>
-        </div>
-      </div>
-    </section>
-
+      </section>
+    </div>
     <section class="goals">
-      <h1>Our Goals</h1>
+      <h1>What can we do to improve our health</h1>
       <p>
-        Our goal is to inform students about the affects that sleep and personal
-        wellbeing has on their performance in studies. We hope the information
-        we present will motivate students to pick up healthy practises.
+        Many of us might be realising that we in fact have not been sleeping
+        enough. IF you do feel this way you are not alone, studies have
+        demonstrated that close to 70 percent of teens do not get a healthy
+        amount of sleep per night. This is both alarming and concerning;
+        however, what should you do to improve your body's health to combat the
+        negative effects of sleep? You should start eating healthy as an
+        unhealthy diet plus lack of sleep can both lead to being overweight but
+        in teenagers especially boys it can lead to an imbalance in hormones. We
+        also start to be aware of your emotions and mood as lack of sleep can
+        leave you restless. And finally we should aim to get more physical
+        exercise as it can help us get our bodies healthy but also leave our
+        bodies tired making it easier to sleep.
       </p>
 
       <div class="row">
         <div class="campus-col">
-          <img src="/assets/sleep.jpg" />
-          <div class="layer">
-            <h3>SLEEP</h3>
-          </div>
+          <a href="/src/pages/sleep/index.html">
+            <img src="/src/assets/diet.jpg" />
+            <div class="layer">
+              <h3>DIET</h3>
+            </div>
+          </a>
         </div>
         <div class="campus-col">
-          <img src="/assets/mental.jpg" />
-          <div class="layer">
-            <h3>MENTAL HEALTH</h3>
-          </div>
+          <a href="/src/pages/lifestyle/index.html">
+            <img src="/src/assets/exercise.jpg" />
+            <div class="layer">
+              <h3>EXERCISE</h3>
+            </div>
+          </a>
         </div>
         <div class="campus-col">
-          <img src="/assets/lifestyle.jpg" />
-          <div class="layer">
-            <h3>LIFESTYLE</h3>
-          </div>
+          <a href="/src/pages/mental/index.html">
+            <img src="/src/assets/mood.jpg" />
+            <div class="layer">
+              <h3>MOOD</h3>
+            </div>
+          </a>
         </div>
       </div>
     </section>
