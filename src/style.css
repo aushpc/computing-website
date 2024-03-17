@@ -157,7 +157,7 @@ nav img {
 }
 
 .sleep {
-  width: 80%;
+  width: 85%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
@@ -166,12 +166,13 @@ nav img {
 h1 {
   font-size: 36px;
   font-weight: 600;
+  padding-bottom: 20px;
 }
 
 p {
   color: #777;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 22px;
   padding: 10px;
 }
@@ -256,7 +257,9 @@ h3{
     bottom: 49%;
     opacity: 1;
 }
-
+.icons i{
+  color: black;
+}
 .footer{
     text-align: center;
     width: 100%;

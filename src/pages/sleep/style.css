@@ -155,7 +155,9 @@ nav img {
     padding: 30px;
   }
 }
-
+.df{
+  padding-top: 50px;
+}
 .sleep {
   width: 85%;
   margin: auto;
@@ -172,9 +174,13 @@ b {
   color: #2b2929; 
 }
 
+.icons i{
+  color: black;
+}
+
 p {
   color: #777;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 22px;
   padding: 10px;
