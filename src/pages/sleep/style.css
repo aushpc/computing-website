@@ -157,7 +157,7 @@ nav img {
 }
 
 .sleep {
-  width: 85%;
+  width: 90%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
@@ -165,17 +165,13 @@ nav img {
 
 h1 {
   font-size: 36px;
-  font-weight: 1000;
-}
-
-b {
-  color: #2b2929; 
+  font-weight: 600;
 }
 
 p {
   color: #777;
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 300;
   line-height: 22px;
   padding: 10px;
 }
@@ -264,11 +260,11 @@ h3{
 .footer{
     width: 100%;
     text-align: center;
-    padding: 15px 0;
+    padding: 30px 0;
 }
 
 .footer h4{
     margin-bottom: 25px;
-    margin-top: 10px;
-    font-weight: 1000;
+    margin-top: 20px;
+    font-weight: 600;
 }

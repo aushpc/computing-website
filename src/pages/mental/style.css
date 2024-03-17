@@ -156,6 +156,26 @@ nav img {
   }
 }
 
+.sleep {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
 .row {
   margin-top: 5%;
   display: flex;
@@ -183,61 +203,18 @@ h3{
         flex-direction: column;
     }
 }
-.body {
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  padding-top: 55px;
-  
-}
-.b {
-  width: 85%;
-  margin: auto;
-  text-align: center;
-  padding-top: 45px;
-}
 
-h1 {
-  font-size: 36px;
-  font-weight: 1000;
-  padding-bottom: 15px;
-}
-
-h2{
-  padding-top: 20px;
-  padding-bottom: 5px;
-}
-
-b{
-  color: #2b2929; 
-}
-
-p {
-  color: #777;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 22px;
-  padding: 10px;
-}
-li{
-  color: #777;
-  font-size: 17px;
-  font-weight: 450;
-  line-height: 22px;
-  padding: 3px;
-
-}
-
-.df{
-  padding-top: 50px;
-
-
+.goals{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding:50px;
 }
 
 .campus-col{
     flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
