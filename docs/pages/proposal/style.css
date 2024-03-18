@@ -54,7 +54,7 @@ nav img {
   content: "";
   width: 0%;
   height: 2px;
-  background: #7c1313;
+  background: #85afb6;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -97,8 +97,8 @@ nav img {
 }
 
 .hero-btn:hover {
-  border: 1px solid #7c1313;
-  background: #7c1313;
+  border: 1px solid #85afb6;
+  background: #85afb6;
   transition: 1s;
 }
 
@@ -114,7 +114,7 @@ nav img {
 }
 
 .logo:hover{
-  color: #7c1313;
+  color: #85afb6;
 }
 
 .menu .fa {
@@ -132,7 +132,7 @@ nav img {
 
   .nav-links {
     position: absolute;
-    background: #7c1313;
+    background: #85afb6;
     height: 100vh;
     width: 200px;
     top: 0;
