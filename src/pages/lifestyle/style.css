@@ -65,6 +65,14 @@ nav img {
   width: 100%;
 }
 
+.chart {
+  max-height: 250px;
+}
+
+.radar {
+  max-height: 500px;
+}
+
 .text-box {
   width: 90%;
   color: #fff;
@@ -201,7 +209,6 @@ li{
 canvas {
   margin-left: 15%;
   margin-right: 15%;
-  height: 1%;
   line-height: 115px;
   text-align: center;
 }
