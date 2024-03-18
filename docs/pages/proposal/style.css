@@ -15,8 +15,7 @@ body {
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(/docs/assets/proporsal_bg.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('https://www.emdesk.com/assets/images/blog-academy/2021/_teaser_blogpost/horizon-2020-proposal-writing.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
